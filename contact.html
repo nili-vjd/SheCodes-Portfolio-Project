@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Armita Vajed</title>
+      <meta
+      name="description"
+      content="Contact Armita. Armita is a front-end developer based in Iran."
+    />
+    <title>Contact - Armita Vajed</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -31,28 +35,32 @@
     ></script>
   </head>
   <body>
-    <div class="container">
+      <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Armita logo"
+          />
           <img
             src="images/logo-small.jpeg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Armita logo"
           />
         </a>
         <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Armita"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Armita's Work"> Work</a>
+          </li>
           <li class="active">
-            <a href="/"> Home</a>
-          </li>
-          <li>
-            <a href="/about.html"> About</a>
-          </li>
-          <li>
-            <a href="/work.html"> Work</a>
-          </li>
-          <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Armita"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -62,16 +70,82 @@
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-            <a href="mailto:armita.vajed@gmail.com">armita.vajed@gmail.com </a>
+            <a href="mailto:armita.vajed@gmail.com" title="Email Armita">armita.vajed@gmail.com </a>
             </p>
         <h3>Twitter</h3>
         <p>
-            <a href="https://twitter.com/Nili_vjd" target="_blank">@armita</a>
+            <a href="https://twitter.com/Nili_vjd" target="_blank" title="Twitter Profile">@armita</a>
             </p>
         <h3>Instagram</h3>
         <p>
-            <a href="https://www.instagram.com/nili_vjd_hjz/" target="_blank">@Nili_vjd_hjz</a>
+            <a href="https://www.instagram.com/nili_vjd_hjz/" target="_blank" title="Instagram Profile">@Nili_vjd_hjz</a>
             </p>
     </div>
+        <footer>
+        <div
+          class="
+            contact-box
+            d-flex
+            justify-content-between
+            mb-5
+            d-none d-md-flex
+          "
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">
+              Let's work together and I'll help you with all my best
+            </p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Armita"
+              >Let's talk here</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:armita.vajed@gmail.com"
+            class="email-link"
+            title="Email Armita"
+          >
+            armita.vajed@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://github.com/nili-vjd"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/nili_vjd_hjz/"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://twitter.com/Nili_vjd"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          ✌🏻 This project was coded by Armita, and it is
+          <a
+            href="https://github.com/nili-vjd/SheCodes-Portfolio-Project"
+            target="_blank"
+          >
+            open-sourced</a
+          >
+        </p>
+      </footer>
   </body>
 </html>
